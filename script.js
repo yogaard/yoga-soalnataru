@@ -51,30 +51,30 @@ console.log(getScore(40));
 // const number = [20, 50, 40, 70];
 // console.log(getSecondMax());
 
-var library = [
-  {
-    title: "Bill Gates",
-    author: "The Road Ahead",
-    readingStatus: true,
-  },
-  {
-    title: "steve jobs",
-    author: "Walter Issacson",
-    readingStatus: true,
-  },
-  {
-    title: "Mockingjay : The  Final Book of the hunger Games",
-    author: "Suzzane Collins",
-    readingStatus: false,
-  },
-];
-for (i = 0; i < 3; i++) {
-  if ((library[i].readingStatus = true)) {
-    console.log("you have read ");
-  } else {
-    console.log("you have not read ");
-  }
-}
+// var library = [
+//   {
+//     title: "Bill Gates",
+//     author: "The Road Ahead",
+//     readingStatus: true,
+//   },
+//   {
+//     title: "steve jobs",
+//     author: "Walter Issacson",
+//     readingStatus: true,
+//   },
+//   {
+//     title: "Mockingjay : The  Final Book of the hunger Games",
+//     author: "Suzzane Collins",
+//     readingStatus: false,
+//   },
+// ];
+// for (i = 0; i < 3; i++) {
+//   if ((library[i].readingStatus = true)) {
+//     console.log("you have read ");
+//   } else {
+//     console.log("you have not read ");
+//   }
+// }
 
 function getLetter(s) {
   let letter;
